@@ -1,0 +1,537 @@
+[{
+  "md5sum": "68dc4de8dcc516b08aea9ce16017c505", 
+  "data_type": "Aligned Reads", 
+  "index_files": [
+    {
+      "file_id": "f9247bc4-d0e1-4557-8a13-e407d700331c"
+    }
+  ], 
+  "file_name": "859bbf6f-a492-4bf7-b09a-732514c56f5b_gdc_realn_rehead.bam", 
+  "downstream_analyses": [
+    {
+      "workflow_type": "HTSeq - Counts", 
+      "output_files": [
+        {
+          "data_type": "Gene Expression Quantification", 
+          "file_name": "d70b05b6-aef5-43f6-b8f6-d670c5672478.htseq.counts.gz", 
+          "data_format": "TXT", 
+          "access": "open", 
+          "file_id": "e8c5661e-dab6-4141-9421-533e4405383c", 
+          "data_category": "Transcriptome Profiling", 
+          "file_size": 252814
+        }
+      ]
+    }, 
+    {
+      "workflow_type": "HTSeq - FPKM", 
+      "output_files": [
+        {
+          "data_type": "Gene Expression Quantification", 
+          "file_name": "d70b05b6-aef5-43f6-b8f6-d670c5672478.FPKM.txt.gz", 
+          "data_format": "TXT", 
+          "access": "open", 
+          "file_id": "d06ce22a-f021-4932-8c4d-3c6d5361a42a", 
+          "data_category": "Transcriptome Profiling", 
+          "file_size": 515540
+        }
+      ]
+    }, 
+    {
+      "workflow_type": "HTSeq - FPKM-UQ", 
+      "output_files": [
+        {
+          "data_type": "Gene Expression Quantification", 
+          "file_name": "d70b05b6-aef5-43f6-b8f6-d670c5672478.FPKM-UQ.txt.gz", 
+          "data_format": "TXT", 
+          "access": "open", 
+          "file_id": "941020e8-13c5-453b-979c-5f5865759c36", 
+          "data_category": "Transcriptome Profiling", 
+          "file_size": 517137
+        }
+      ]
+    }
+  ], 
+  "file_size": 9353417325, 
+  "data_format": "BAM", 
+  "analysis": {
+    "analysis_id": "ddd46b10-b399-4f82-8475-bf2dc7953c2f", 
+    "updated_datetime": "2017-03-04T16:48:46.742769-06:00", 
+    "created_datetime": "2016-05-30T00:04:41.828073-05:00", 
+    "submitter_id": "fd1ff92c-5775-4b0d-a6cf-ca334ffbdeb2_pipeline:star0.2.6", 
+    "state": "live", 
+    "workflow_link": "https://github.com/NCI-GDC/star-2pass-tool", 
+    "workflow_type": "STAR 2-Pass", 
+    "workflow_version": "v1", 
+    "metadata": {
+      "read_groups": [
+        {
+          "read_length": 48, 
+          "library_name": "unknown", 
+          "sequencing_center": "UNC", 
+          "is_paired_end": true, 
+          "read_group_id": "1076f8a5-bc78-4940-8ac3-b4f28d310912"
+        }
+      ]
+    }
+  }, 
+  "submitter_id": "859bbf6f-a492-4bf7-b09a-732514c56f5b", 
+  "access": "controlled", 
+  "platform": "Illumina", 
+  "state": "live", 
+  "file_id": "48ad3449-5a89-45c7-a9f8-942c872938c1", 
+  "data_category": "Raw Sequencing Data", 
+  "associated_entities": [
+    {
+      "entity_id": "5adaf99c-fbe7-4e75-94b0-e33170aee8c0", 
+      "case_id": "c9a5b051-0503-4aae-8bc6-270af3033326", 
+      "entity_submitter_id": "TCGA-DX-A6Z0-01A-13R-A36F-07", 
+      "entity_type": "aliquot"
+    }
+  ], 
+  "cases": [
+    {
+      "diagnoses": [
+        {
+          "classification_of_tumor": "not reported", 
+          "last_known_disease_status": "not reported", 
+          "updated_datetime": "2017-03-04T16:44:35.784223-06:00", 
+          "primary_diagnosis": "c49.2", 
+          "submitter_id": "TCGA-DX-A6Z0_diagnosis", 
+          "tumor_stage": "not reported", 
+          "age_at_diagnosis": 28796.0, 
+          "vital_status": "dead", 
+          "morphology": "8811/3", 
+          "days_to_death": 1953.0, 
+          "days_to_last_known_disease_status": null, 
+          "created_datetime": null, 
+          "state": "live", 
+          "days_to_recurrence": null, 
+          "diagnosis_id": "f78ff72a-f1a8-5041-94d2-6eb3302a981a", 
+          "tumor_grade": "not reported", 
+          "treatments": [
+            {
+              "updated_datetime": "2017-03-04T16:43:59.646072-06:00", 
+              "created_datetime": null, 
+              "therapeutic_agents": null, 
+              "submitter_id": "TCGA-DX-A6Z0_treatment", 
+              "treatment_id": "6e712075-2f82-5744-8220-0bf8a14a1fb9", 
+              "state": "live", 
+              "days_to_treatment": null, 
+              "treatment_intent_type": null, 
+              "treatment_or_therapy": null
+            }
+          ], 
+          "tissue_or_organ_of_origin": "c49.2", 
+          "days_to_birth": -28796.0, 
+          "progression_or_recurrence": "not reported", 
+          "prior_malignancy": "not reported", 
+          "site_of_resection_or_biopsy": "c49.2", 
+          "days_to_last_follow_up": null
+        }
+      ], 
+      "disease_type": "Sarcoma", 
+      "updated_datetime": "2017-03-04T16:39:19.244769-06:00", 
+      "created_datetime": null, 
+      "demographic": {
+        "updated_datetime": "2017-03-04T16:37:28.862150-06:00", 
+        "created_datetime": null, 
+        "gender": "female", 
+        "year_of_birth": 1928, 
+        "submitter_id": "TCGA-DX-A6Z0_demographic", 
+        "state": "live", 
+        "race": "white", 
+        "demographic_id": "b395a6dc-6f85-51d3-9a97-8ef1abde51ae", 
+        "ethnicity": "not reported", 
+        "year_of_death": 2011
+      }, 
+      "submitter_id": "TCGA-DX-A6Z0", 
+      "project": {
+        "project_id": "TCGA-SARC"
+      }, 
+      "state": "live", 
+      "case_id": "c9a5b051-0503-4aae-8bc6-270af3033326", 
+      "primary_site": "Soft Tissue", 
+      "samples": [
+        {
+          "sample_type_id": "01", 
+          "updated_datetime": "2017-03-04T16:37:25.946840-06:00", 
+          "time_between_excision_and_freezing": null, 
+          "oct_embedded": "true", 
+          "tumor_code_id": null, 
+          "submitter_id": "TCGA-DX-A6Z0-01A", 
+          "intermediate_dimension": null, 
+          "sample_id": "19c821d5-c05c-42ad-aaca-749565eff239", 
+          "is_ffpe": false, 
+          "pathology_report_uuid": "6E54D4E1-23E5-4E1D-979A-19909E30AF48", 
+          "created_datetime": null, 
+          "tumor_descriptor": null, 
+          "sample_type": "Primary Tumor", 
+          "state": "live", 
+          "current_weight": null, 
+          "composition": null, 
+          "time_between_clamping_and_freezing": null, 
+          "shortest_dimension": null, 
+          "tumor_code": null, 
+          "tissue_type": null, 
+          "days_to_sample_procurement": null, 
+          "freezing_method": null, 
+          "portions": [
+            {
+              "creation_datetime": 1374624000, 
+              "portion_number": "01", 
+              "weight": 80.0, 
+              "updated_datetime": "2017-03-04T16:37:25.884855-06:00", 
+              "created_datetime": null, 
+              "analytes": [
+                {
+                  "updated_datetime": "2017-03-04T16:37:25.846427-06:00", 
+                  "created_datetime": null, 
+                  "well_number": null, 
+                  "analyte_type": "RNA", 
+                  "submitter_id": "TCGA-DX-A6Z0-01A-13R", 
+                  "a260_a280_ratio": 1.84, 
+                  "amount": null, 
+                  "state": "live", 
+                  "aliquots": [
+                    {
+                      "state": "live", 
+                      "updated_datetime": "2017-03-04T16:49:52.080849-06:00", 
+                      "created_datetime": null, 
+                      "analyte_type_id": null, 
+                      "analyte_type": null, 
+                      "submitter_id": "TCGA-DX-A6Z0-01A-13R-A36F-07", 
+                      "amount": null, 
+                      "aliquot_id": "5adaf99c-fbe7-4e75-94b0-e33170aee8c0", 
+                      "concentration": 0.16, 
+                      "source_center": "23"
+                    }
+                  ], 
+                  "analyte_id": "0413deaf-76a8-47b5-b589-32c12833e7fa", 
+                  "concentration": 0.16, 
+                  "spectrophotometer_method": "UV Spec", 
+                  "analyte_type_id": "R"
+                }
+              ], 
+              "submitter_id": "TCGA-DX-A6Z0-01A-01", 
+              "slides": [
+                {
+                  "percent_neutrophil_infiltration": 1.0, 
+                  "percent_monocyte_infiltration": 2.0, 
+                  "percent_normal_cells": 0.0, 
+                  "updated_datetime": "2017-03-04T16:37:25.730133-06:00", 
+                  "created_datetime": null, 
+                  "percent_eosinophil_infiltration": null, 
+                  "percent_tumor_nuclei": 70.0, 
+                  "percent_lymphocyte_infiltration": 3.0, 
+                  "submitter_id": "TCGA-DX-A6Z0-01A-01-TSA", 
+                  "state": "live", 
+                  "section_location": "TOP", 
+                  "percent_granulocyte_infiltration": null, 
+                  "percent_necrosis": 0.0, 
+                  "slide_id": "4ea9b4bf-7339-470d-bdbb-d7af4be849e4", 
+                  "number_proliferating_cells": null, 
+                  "percent_stromal_cells": 30.0, 
+                  "percent_inflam_infiltration": null, 
+                  "percent_tumor_cells": 70.0
+                }
+              ], 
+              "state": "live", 
+              "portion_id": "9afd53c3-079f-473d-a6da-a480e2bc5d2b", 
+              "is_ffpe": false
+            }
+          ], 
+          "preservation_method": null, 
+          "days_to_collection": 2615, 
+          "initial_weight": 1080.0, 
+          "longest_dimension": null
+        }
+      ], 
+      "exposures": [
+        {
+          "cigarettes_per_day": null, 
+          "weight": null, 
+          "updated_datetime": "2017-03-04T16:37:25.850486-06:00", 
+          "alcohol_history": null, 
+          "alcohol_intensity": null, 
+          "bmi": null, 
+          "years_smoked": null, 
+          "submitter_id": "TCGA-DX-A6Z0_exposure", 
+          "created_datetime": null, 
+          "state": "live", 
+          "exposure_id": "8823cd2a-5660-59c6-bb82-674ec0df29e4", 
+          "height": null
+        }
+      ]
+    }
+  ], 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "md5sum": "601c3840d65943ea46669c97fad0324e", 
+  "data_type": "Aligned Reads", 
+  "index_files": [
+    {
+      "file_id": "2b554cbd-eb98-4483-9a31-8858166339ce"
+    }
+  ], 
+  "file_name": "608f820c-e8d5-473a-aaab-fdc50ff7da05_gdc_realn_rehead.bam", 
+  "downstream_analyses": [
+    {
+      "workflow_type": "HTSeq - FPKM", 
+      "output_files": [
+        {
+          "data_type": "Gene Expression Quantification", 
+          "file_name": "0d8702cc-d3db-4daf-94a8-b37103d771a6.FPKM.txt.gz", 
+          "data_format": "TXT", 
+          "access": "open", 
+          "file_id": "d251bf64-1771-4863-8894-056bfb234e87", 
+          "data_category": "Transcriptome Profiling", 
+          "file_size": 559689
+        }
+      ]
+    }, 
+    {
+      "workflow_type": "HTSeq - Counts", 
+      "output_files": [
+        {
+          "data_type": "Gene Expression Quantification", 
+          "file_name": "0d8702cc-d3db-4daf-94a8-b37103d771a6.htseq.counts.gz", 
+          "data_format": "TXT", 
+          "access": "open", 
+          "file_id": "fe4f0b9a-46c8-4419-8315-0646418e3591", 
+          "data_category": "Transcriptome Profiling", 
+          "file_size": 257574
+        }
+      ]
+    }, 
+    {
+      "workflow_type": "HTSeq - FPKM-UQ", 
+      "output_files": [
+        {
+          "data_type": "Gene Expression Quantification", 
+          "file_name": "0d8702cc-d3db-4daf-94a8-b37103d771a6.FPKM-UQ.txt.gz", 
+          "data_format": "TXT", 
+          "access": "open", 
+          "file_id": "49ece75b-2193-43c5-8adf-e4ac937d0f8c", 
+          "data_category": "Transcriptome Profiling", 
+          "file_size": 563330
+        }
+      ]
+    }
+  ], 
+  "file_size": 7769083526, 
+  "data_format": "BAM", 
+  "analysis": {
+    "analysis_id": "ea4d6a39-d0e1-47e0-a830-16ac87c40267", 
+    "updated_datetime": "2017-03-04T16:48:46.742769-06:00", 
+    "created_datetime": "2016-05-29T15:19:05.312242-05:00", 
+    "submitter_id": "41882735-dbee-4247-a3a2-410fa97d0487_pipeline:star0.2.10", 
+    "state": "live", 
+    "workflow_link": "https://github.com/NCI-GDC/star-2pass-tool", 
+    "workflow_type": "STAR 2-Pass", 
+    "workflow_version": "v1", 
+    "metadata": {
+      "read_groups": [
+        {
+          "read_length": 50, 
+          "library_name": "unknown", 
+          "sequencing_center": "BCGSC", 
+          "is_paired_end": true, 
+          "read_group_id": "7db53410-6180-47ea-8b6e-6485a105e864"
+        }, 
+        {
+          "read_length": 50, 
+          "library_name": "unknown", 
+          "sequencing_center": "BCGSC", 
+          "is_paired_end": true, 
+          "read_group_id": "931fb521-5ee8-421d-879d-81ed7482fb0d"
+        }
+      ]
+    }
+  }, 
+  "submitter_id": "608f820c-e8d5-473a-aaab-fdc50ff7da05", 
+  "access": "controlled", 
+  "platform": "Illumina", 
+  "state": "live", 
+  "file_id": "2c2b7eb7-a6c4-4b64-965c-f3e531e250e5", 
+  "data_category": "Raw Sequencing Data", 
+  "associated_entities": [
+    {
+      "entity_id": "eb3635e8-c942-411f-900c-05c10f865be3", 
+      "case_id": "995bdb1e-c67e-43eb-9fbd-16eb290926d5", 
+      "entity_submitter_id": "TCGA-AB-2897-03A-01T-0735-13", 
+      "entity_type": "aliquot"
+    }
+  ], 
+  "cases": [
+    {
+      "diagnoses": [
+        {
+          "classification_of_tumor": "not reported", 
+          "last_known_disease_status": "not reported", 
+          "updated_datetime": "2017-03-04T16:44:35.784223-06:00", 
+          "primary_diagnosis": "not reported", 
+          "submitter_id": "TCGA-AB-2897_diagnosis", 
+          "tumor_stage": "not reported", 
+          "age_at_diagnosis": 18413.0, 
+          "vital_status": "alive", 
+          "morphology": "not reported", 
+          "days_to_death": null, 
+          "days_to_last_known_disease_status": null, 
+          "created_datetime": null, 
+          "state": "live", 
+          "days_to_recurrence": null, 
+          "diagnosis_id": "d764a510-2e37-5837-8342-6ec1c66190a5", 
+          "tumor_grade": "not reported", 
+          "treatments": [
+            {
+              "updated_datetime": "2017-03-04T16:43:59.646072-06:00", 
+              "created_datetime": null, 
+              "therapeutic_agents": null, 
+              "submitter_id": "TCGA-AB-2897_treatment", 
+              "treatment_id": "402be052-7877-540a-a895-60226d38c14e", 
+              "state": "live", 
+              "days_to_treatment": null, 
+              "treatment_intent_type": null, 
+              "treatment_or_therapy": null
+            }
+          ], 
+          "tissue_or_organ_of_origin": "not reported", 
+          "days_to_birth": -18413.0, 
+          "progression_or_recurrence": "not reported", 
+          "prior_malignancy": "not reported", 
+          "site_of_resection_or_biopsy": "not reported", 
+          "days_to_last_follow_up": 243.0
+        }
+      ], 
+      "disease_type": "Acute Myeloid Leukemia", 
+      "updated_datetime": "2017-03-09T09:44:44.100638-06:00", 
+      "created_datetime": null, 
+      "demographic": {
+        "updated_datetime": "2017-03-04T16:37:28.862150-06:00", 
+        "created_datetime": null, 
+        "gender": "female", 
+        "year_of_birth": 1959, 
+        "submitter_id": "TCGA-AB-2897_demographic", 
+        "state": "live", 
+        "race": "white", 
+        "demographic_id": "0bfaf975-1d7f-555d-bdb2-e53132bd79ae", 
+        "ethnicity": "not hispanic or latino", 
+        "year_of_death": null
+      }, 
+      "submitter_id": "TCGA-AB-2897", 
+      "project": {
+        "project_id": "TCGA-LAML"
+      }, 
+      "state": "live", 
+      "case_id": "995bdb1e-c67e-43eb-9fbd-16eb290926d5", 
+      "primary_site": "Bone Marrow", 
+      "samples": [
+        {
+          "sample_type_id": "03", 
+          "updated_datetime": "2017-03-04T16:37:25.946840-06:00", 
+          "time_between_excision_and_freezing": null, 
+          "oct_embedded": null, 
+          "tumor_code_id": null, 
+          "submitter_id": "TCGA-AB-2897-03A", 
+          "intermediate_dimension": null, 
+          "sample_id": "01f75c4d-b2e0-4847-b7af-4e3e00714d52", 
+          "is_ffpe": false, 
+          "pathology_report_uuid": null, 
+          "created_datetime": null, 
+          "tumor_descriptor": null, 
+          "sample_type": "Primary Blood Derived Cancer - Peripheral Blood", 
+          "state": "live", 
+          "current_weight": null, 
+          "composition": null, 
+          "time_between_clamping_and_freezing": null, 
+          "shortest_dimension": null, 
+          "tumor_code": null, 
+          "tissue_type": null, 
+          "days_to_sample_procurement": null, 
+          "freezing_method": null, 
+          "portions": [
+            {
+              "creation_datetime": 0, 
+              "portion_number": "01", 
+              "weight": null, 
+              "updated_datetime": "2017-03-04T16:37:25.884855-06:00", 
+              "created_datetime": null, 
+              "analytes": [
+                {
+                  "updated_datetime": "2017-03-04T16:37:25.846427-06:00", 
+                  "created_datetime": null, 
+                  "well_number": null, 
+                  "analyte_type": "Total RNA", 
+                  "submitter_id": "TCGA-AB-2897-03A-01T", 
+                  "a260_a280_ratio": null, 
+                  "amount": null, 
+                  "state": "live", 
+                  "aliquots": [
+                    {
+                      "state": "live", 
+                      "updated_datetime": "2017-03-04T16:49:52.080849-06:00", 
+                      "created_datetime": null, 
+                      "analyte_type_id": null, 
+                      "analyte_type": null, 
+                      "submitter_id": "TCGA-AB-2897-03A-01T-0735-13", 
+                      "amount": null, 
+                      "aliquot_id": "eb3635e8-c942-411f-900c-05c10f865be3", 
+                      "concentration": null, 
+                      "source_center": "23"
+                    }
+                  ], 
+                  "analyte_id": "c86d5de3-c305-452f-9cab-9614ce3090df", 
+                  "concentration": null, 
+                  "spectrophotometer_method": null, 
+                  "analyte_type_id": "T"
+                }
+              ], 
+              "submitter_id": "TCGA-AB-2897-03A-01", 
+              "state": "live", 
+              "portion_id": "04ec913e-3a26-4327-ad15-71fa18fb6ea9", 
+              "is_ffpe": false
+            }
+          ], 
+          "preservation_method": null, 
+          "days_to_collection": null, 
+          "initial_weight": null, 
+          "longest_dimension": null
+        }
+      ], 
+      "exposures": [
+        {
+          "cigarettes_per_day": null, 
+          "weight": null, 
+          "updated_datetime": "2017-03-04T16:37:25.850486-06:00", 
+          "alcohol_history": null, 
+          "alcohol_intensity": null, 
+          "bmi": null, 
+          "years_smoked": null, 
+          "submitter_id": "TCGA-AB-2897_exposure", 
+          "created_datetime": null, 
+          "state": "live", 
+          "exposure_id": "775f241f-8abb-59c1-b426-47e44f1661dc", 
+          "height": null
+        }
+      ]
+    }
+  ], 
+  "annotations": [
+    {
+      "category": "Alternate sample pipeline", 
+      "status": "Approved", 
+      "entity_id": "995bdb1e-c67e-43eb-9fbd-16eb290926d5", 
+      "classification": "Notification", 
+      "entity_type": "case", 
+      "created_datetime": "2012-11-13T00:00:00", 
+      "annotation_id": "73d2934c-7cb2-5e81-a295-bf060b2f6f7d", 
+      "notes": "Biospecimens from this case belong to Batch 25 and were processed into analyte outside of the normal TCGA standardized laboratory pipeline.  Users should note that the resulting characterization data may exhibit features (e.g. batch effects) due to this difference.", 
+      "updated_datetime": "2017-03-09T11:51:45.387100-06:00", 
+      "submitter_id": "12248", 
+      "state": "submitted", 
+      "case_id": "995bdb1e-c67e-43eb-9fbd-16eb290926d5", 
+      "entity_submitter_id": "TCGA-AB-2897"
+    }
+  ], 
+  "experimental_strategy": "RNA-Seq"
+}]
